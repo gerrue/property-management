@@ -6,8 +6,17 @@
 </template>
 
 <script>
+import bNav from 'bootstrap-vue'
+import {
+  HOME,
+  HELLO,
+} from '@/router/routes'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    bNav,
+  }
 }
 </script>
 
